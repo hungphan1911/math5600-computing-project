@@ -4,6 +4,21 @@ Author: Khoa Minh Ngo, Hung Phan Quoc Viet, Markeya Gu
 Project: Regression-prediction
 """
 
+# Add the packages in case missing
+using Pkg
+Pkg.add([
+    "CSV",
+    "DataFrames",
+    "Dates",
+    "Random",
+    "StatsBase",
+    "Polynomials",
+    "Statistics",
+    "LinearAlgebra",
+    "FundamentalsNumericalComputation",
+    "Plots"
+])
+
 using CSV
 using DataFrames
 using Dates
